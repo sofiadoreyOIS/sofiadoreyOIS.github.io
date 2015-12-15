@@ -1,0 +1,59 @@
+#preload {
+    display: none;
+}
+
+.sketch-container {
+  position: relative;
+  margin-top: 30px;
+  width: 960px;
+}
+
+.control-container {
+  position: absolute;
+  background-color: transparent;
+  width: 170px;
+  top: 15px;
+  left: 378px;
+}
+
+#randomize {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 40px;
+  cursor: pointer;
+  color: #fff;
+}
+
+#randomize:hover {
+  color: #43808e;
+}
+
+#submit {
+  border-color: #43808e;
+  color: #43808e;
+}
+
+#submit:hover {
+  background-color: #43808e;
+  color: #fff;
+}
+
+#length {
+  margin-bottom: 5px;
+  border-color: #43808e;
+  color: #43808e;
+  text-align: center;
+  font-size: 20px;
+}
+
+#loading {
+  color: #43808e;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 150px;
+}
+
+.btn {
+  outline: none !important;
+}

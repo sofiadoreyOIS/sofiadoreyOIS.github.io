@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Boat Dock</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <div class="sketch-container center-block">
+      <span id="randomize" class="glyphicon glyphicon-refresh"></span>
+      <div class="control-container">
+        <input id="length" class="form-control" placeholder="Enter length (m)"/>
+        <button id="submit" class="btn btn-default center-block">Build It</button>
+        <p id="loading" class="center-block">Loading...</p>
+      </div>
+
+      <canvas id="sketch" width="960" height="540">
+        You're going to need a modern browser to enjoy this simulation.
+      </canvas>
+    </div>
+
+    <div id="preload">
+      <img id="background" src="img/background.png">
+      <img id="bridge-end" src="img/bridge-end.png">
+      <img id="bridge-middle" src="img/bridge-middle.png">
+      <img id="bridge-start" src="img/bridge-start.png">
+      <img id="dock" src="img/dock.png">
+      <img id="pier" src="img/pier.png">
+      <img id="water" src="img/water.png">
+    </div>
+
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
