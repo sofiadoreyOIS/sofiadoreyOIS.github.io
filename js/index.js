@@ -242,8 +242,8 @@
     };
     randomize = function() {
       var x, y;
-      x = Math.random() * (27.1 - 10.9) + 10.9;
-      y = Math.random() * (18.3 - 9.7) + 9.7;
+      x = 10.9;
+      y = 9.7;
       dock.setPos(m2px(x), m2px(y));
       bridge.hide();
       $length.val('');
